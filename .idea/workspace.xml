@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b958a233-ce96-4626-84eb-baa39b37a33c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/HttpConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/App.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\davis\OneDrive\Escritorio\AREP\Taller_01\htmlReport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="2KvlTQf23n12GRHsOxV3dlSztdd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/davis/OneDrive/Escritorio/AREP/Taller_01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+      <recent name="org.myorg.HttpConnection" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.myorg.HttpConnectionTest" />
+      <recent name="org.myorg" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpConnectionTest">
+    <configuration name="GetDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taller_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnection" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetDataTest.Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taller_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
+      <option name="METHOD_NAME" value="Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetDataTest.Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taller_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
+      <option name="METHOD_NAME" value="Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taller_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.HttpConnectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpConnectionTest.Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taller_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.HttpConnectionTest" />
+      <option name="METHOD_NAME" value="Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HttpConnectionTest" />
+        <item itemvalue="JUnit.GetDataTest" />
+        <item itemvalue="JUnit.GetDataTest.Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" />
+        <item itemvalue="JUnit.HttpConnectionTest.Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" />
+        <item itemvalue="JUnit.GetDataTest.Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b958a233-ce96-4626-84eb-baa39b37a33c" name="Changes" comment="" />
+      <created>1674862956548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674862956548</updated>
+      <workItem from="1674862960130" duration="222000" />
+      <workItem from="1674863375198" duration="12413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Taller_01$GetDataTest.ic" NAME="GetDataTest Coverage Results" MODIFIED="1674879290447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.myorg.HttpConnectionTest.*</FILTER>
+      <FILTER>org.myorg.HttpConnection</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Taller_01$HttpConnectionTest.ic" NAME="HttpConnectionTest Coverage Results" MODIFIED="1674879868034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.myorg.HttpConnectionTest.*</FILTER>
+    </SUITE>
+  </component>
+</project>
