@@ -1,4 +1,4 @@
-package org.myorg;
+package org.myorg.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpConnection {
-    private static final String USER_AGENT = "Mozilla/5.0";
+    private static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0" +
+            "Chrome/51.0.2704.103 Safari/537.36";
     private final String url, api_key;
 
     public HttpConnection(String url, String api_key) {

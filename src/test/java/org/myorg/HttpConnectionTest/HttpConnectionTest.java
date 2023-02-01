@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.myorg.HttpConnection;
+import org.myorg.http.HttpConnection;
 
 public class HttpConnectionTest {
 

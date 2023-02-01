@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b958a233-ce96-4626-84eb-baa39b37a33c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/HttpConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/factories/PageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/SimplePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/HttpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/http/HttpConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Taller_01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Taller_01-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/HttpConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.GetDataTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.GetDataTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.HttpConnectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.HttpConnectionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.GetDataTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.GetDataTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.HttpConnectionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.HttpConnectionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/GetDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/GetDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/HttpConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/HttpConnectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,7 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,33 +69,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "C:/Users/davis/OneDrive/Escritorio/AREP/Taller_01",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/davis/OneDrive/Escritorio/AREP/Taller_01&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
       <recent name="org.myorg.HttpConnection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\davis\OneDrive\Escritorio\AREP\Taller_01\src\main\java\org\myorg" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.myorg.HttpConnectionTest" />
@@ -91,97 +111,23 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpConnectionTest">
-    <configuration name="GetDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpServer" />
       <module name="Taller_01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnection" />
+          <option name="PATTERN" value="org.myorg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
-      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetDataTest.Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taller_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
-      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
-      <option name="METHOD_NAME" value="Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetDataTest.Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taller_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
-      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.GetDataTest" />
-      <option name="METHOD_NAME" value="Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taller_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
-      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.HttpConnectionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpConnectionTest.Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taller_01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.myorg.HttpConnectionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.myorg.HttpConnectionTest" />
-      <option name="MAIN_CLASS_NAME" value="org.myorg.HttpConnectionTest.HttpConnectionTest" />
-      <option name="METHOD_NAME" value="Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpConnectionTest" />
-        <item itemvalue="JUnit.GetDataTest" />
-        <item itemvalue="JUnit.GetDataTest.Given_Parameters_When_AreWrong_Then_ReturnEmptyAnswer" />
-        <item itemvalue="JUnit.HttpConnectionTest.Given_ApiKey_When_IsNull_Then_CreateCorrectlyConnection" />
-        <item itemvalue="JUnit.GetDataTest.Given_Title_When_IsNotEmpty_Then_NoGivenInvalidMessage" />
+        <item itemvalue="Application.HttpServer" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +141,15 @@
       <updated>1674862956548</updated>
       <workItem from="1674862960130" duration="222000" />
       <workItem from="1674863375198" duration="12413000" />
+      <workItem from="1674925053311" duration="751000" />
+      <workItem from="1674943781823" duration="32000" />
+      <workItem from="1674989941916" duration="5470000" />
+      <workItem from="1675009779021" duration="10761000" />
+      <workItem from="1675129683965" duration="3602000" />
+      <workItem from="1675199508815" duration="11660000" />
+      <workItem from="1675224815603" duration="1710000" />
+      <workItem from="1675274592887" duration="488000" />
+      <workItem from="1675275104517" duration="4948000" />
     </task>
     <servers />
   </component>
