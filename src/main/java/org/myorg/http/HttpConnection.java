@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * Connection to a public or private api
+ */
 public class HttpConnection {
     private static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0" +
             "Chrome/51.0.2704.103 Safari/537.36";
@@ -20,6 +23,12 @@ public class HttpConnection {
     }
 
 
+    /**
+     * Return query response to the api
+     * @param query request to api
+     * @return Json API response
+     * @throws IOException URL malformed
+     */
     public String getData(String query) throws IOException {
         URL queryUrl = new URL(api_key.equals("") ? url + query : url + query + "&" + api_key);
         HttpURLConnection queryConnection = (HttpURLConnection) queryUrl.openConnection();

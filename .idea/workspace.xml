@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b958a233-ce96-4626-84eb-baa39b37a33c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/factories/PageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/SimplePage.java" afterDir="false" />
+    <list default="true" id="b958a233-ce96-4626-84eb-baa39b37a33c" name="Changes" comment="HttpServer Running">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/HttpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/http/HttpConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/GetDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/myorg/HttpConnectionTest/HttpConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/factories/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/factories/PageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/http/HttpConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/http/HttpConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/myorg/pages/SimplePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myorg/pages/SimplePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Taller_01-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Taller_01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/myorg/HttpConnection.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.GetDataTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.GetDataTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.HttpConnectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.myorg.HttpConnectionTest.HttpConnectionTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.GetDataTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.GetDataTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.HttpConnectionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.myorg.HttpConnectionTest.HttpConnectionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/GetDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/GetDataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/HttpConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/myorg/HttpConnectionTest/HttpConnectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,12 +140,26 @@
       <workItem from="1675199508815" duration="11660000" />
       <workItem from="1675224815603" duration="1710000" />
       <workItem from="1675274592887" duration="488000" />
-      <workItem from="1675275104517" duration="4948000" />
+      <workItem from="1675275104517" duration="5326000" />
+      <workItem from="1675286552838" duration="89000" />
+      <workItem from="1675302498288" duration="1214000" />
     </task>
+    <task id="LOCAL-00001" summary="HttpServer Running">
+      <created>1675280744288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675280744288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HttpServer Running" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpServer Running" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Taller_01$GetDataTest.ic" NAME="GetDataTest Coverage Results" MODIFIED="1674879290447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

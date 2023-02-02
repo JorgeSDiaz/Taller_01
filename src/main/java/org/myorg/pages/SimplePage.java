@@ -1,5 +1,8 @@
 package org.myorg.pages;
 
+/**
+ * Test Page
+ */
 public class SimplePage implements Page {
     @Override
     public String getContent() {

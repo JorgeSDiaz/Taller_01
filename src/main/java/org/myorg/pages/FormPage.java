@@ -1,5 +1,8 @@
 package org.myorg.pages;
 
+/**
+ * Page with form to make a query to an api
+ */
 public class FormPage implements Page {
     @Override
     public String getContent() {
